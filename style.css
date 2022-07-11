@@ -1,0 +1,855 @@
+html{
+   font-size: 100%;
+   /* background-color: rgb(231, 231, 231); */
+}
+.cont{
+    width: 100%;
+    height: 600px;
+    margin-top:10%;
+    margin-left:5%;
+    background-color: white;
+}
+
+.head{
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    font-size: 30px;
+}
+
+.head a{
+   text-decoration: none;
+   color: gray;
+}
+
+ .task{
+    display:inline-block;
+    padding: 10px;
+    margin-right:0px;
+    font-size: 60px;
+    margin-top:0px;
+    margin-left:10%;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .task span{
+   font-family: Segoe UI;
+ }
+
+ .icon {
+   display: inline-block;
+   color: #ffC977;
+   vertical-align: middle;
+   margin-top: 2px;
+  }
+
+  .icon img{
+   width: 40px;
+  }
+  
+  .text{
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 30px;
+   color: gray;
+   text-decoration: none;
+   font-family: sans-serif;
+ }
+
+ .task span{
+   color: gray;
+   font-weight: 100;
+ }
+
+ .add{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 35%;
+    margin-right:0px;
+ }
+
+ .red-color {
+   color:red;
+}
+
+ .card{
+    width:15%;
+    border: 2px solid red;
+    display: inline-block;
+    text-align: center;
+    /* padding: 10px; */
+    border-radius: 10px;
+    height: 80%;
+    color:red;
+    padding-bottom: 10%;
+    box-shadow: 5px 5px 12px gray;
+ }
+
+ .one{
+    margin-right: 50px;
+ }
+
+ .three{
+    margin-left: 50px;
+ }
+
+ .card p{
+    font-size: 30px;
+    color: red;
+    font-family: Segoe UI;
+ }
+
+ .card a{
+   text-decoration: none;
+ }
+
+ .card del{
+   font-size: 25px;
+   margin-left: 20px;
+ }
+ 
+ input[type="checkbox"]{
+   width: 18px; 
+   height: 18px; 
+ }
+
+ .ing{
+   margin-right: 40px;
+ }
+
+ .ptask{
+   color:black;
+   font-size: 22px;
+ }
+
+ .line{
+   width: 70%;
+   text-align:right;
+   margin-right:0;
+   color: black;
+   background-color: black;
+   height: 0.5px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+   font-size: 100%;
+  }
+
+ .cont{
+     width: 100vw;
+     height: 100vh;
+     margin-top:0%;
+     margin-left:0%;
+     background-color: white;
+     overflow-x:hidden;
+     overflow-y:hidden;
+ }
+ 
+ .head{
+     width: 100%;
+     display: inline-block;
+     font-size: 1rem;
+     display: grid;
+     grid-template-columns: auto auto;
+     position: relative;
+ }
+ 
+ .head a{
+    text-decoration: none;
+    color: gray;
+ }
+ 
+  .task{
+     width: 100%;
+     display:inline-block;
+     padding: 1%;
+     margin-right:0px;
+     font: size 5rem;
+     margin-top:0%;
+     margin: left 0.1rem;;
+     font-family: 'Roboto Condensed', sans-serif;
+     position: absolute;
+
+  }
+
+  .task b{
+      font-size: 2.5rem;
+  }
+ 
+  .task span{
+    font-size: 2.5rem;
+    font-family: Segoe UI;
+  }
+ 
+  .icon {
+    display: inline-block;
+    color: #ffC977;
+    vertical-align:middle;
+    margin: top 0rem;
+    right: 0;
+    position: absolute;
+   }
+ 
+   .icon img{
+    width:3rem;
+    height:3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+   }
+   
+   .text{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  .text span{
+    display: none;
+  }
+ 
+  .task span{
+    color: gray;
+    font-weight: 100;
+  }
+ 
+  .add{
+     width: 10%;
+     display: inline-block;
+     padding: 0rem;
+     margin-left:0%;
+     margin-right:0rem;
+  }
+ 
+  .red-color {
+    display: none;
+    color:red;
+ }
+
+ .cards{
+     width: 100%;
+     display: grid;
+     grid-template-columns: auto;
+     align-items: center;
+    
+ }
+ 
+  .card{
+     width: 90%;
+     border: 2px solid gray;
+     display: inline-block;
+     text-align: center;
+     border-radius: 1rem;
+     height: 5%;
+     color:gray;
+     box-shadow: 5px 5px 12px gray;
+     margin-left: 1rem;
+     font-size: 1rem;
+  }
+
+  .mark{
+   margin-top: -5rem;
+  }
+ 
+  .card p{
+     font-size: 2rem;
+     color: gray;
+     font-family: Segoe UI;
+     margin-left: 0rem;
+  }
+
+  .si{
+     font-size: 2rem;
+     color: gray;
+     font-family: Segoe UI;
+     margin-left:0rem;
+  }
+ 
+  .card a{
+    text-decoration: none;
+  }
+ 
+  .card del{
+    display: none;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  
+  input[type="checkbox"]{
+    display: none;
+    width: 18px; 
+    height: 18px; 
+  }
+ 
+  .ing{
+    display: none;
+    margin-right: 40px;
+  }
+ 
+  .ptask{
+    display: none;
+
+    color:black;
+    font-size: 22px;
+  }
+ 
+  .line{
+    display: none;
+    width: 70%;
+    text-align:right;
+    margin-right:0;
+    color: black;
+    background-color: black;
+    height: 0.5px;
+ }
+  
+}
+
+@media (min-width:480px) and (max-width:600px) {
+
+   *{
+     margin: 0;
+     padding: 0;
+   }
+ 
+   html{
+    font-size: 100%;
+   }
+ 
+  .cont{
+      width: 100vw;
+      height: 100vh;
+      margin-top:0%;
+      margin-left:0%;
+      background-color: white;
+      overflow-x:hidden;
+      overflow-y:hidden;
+  }
+  
+  .head{
+      width: 100%;
+      display: inline-block;
+      font-size: 30px;
+      display: grid;
+      grid-template-columns: auto auto;
+      position: relative;
+  }
+  
+  .head a{
+       text-decoration: none;
+       color: gray;
+  }
+  
+  .task{
+       width: 100%;
+       display:inline-block;
+       padding: 1%;
+       margin-right:0px;
+       font: size 5rem;;
+       margin-top:0%;
+       margin: left 0.1rem;;
+       font-family: 'Roboto Condensed', sans-serif;
+       position: absolute;
+ 
+ }
+ 
+ .task span{
+    font-family: Segoe UI;
+ }
+  
+   .icon {
+       display: inline-block;
+       color: #ffC977;
+       vertical-align:middle;
+       margin: top 0rem;
+       right: 0;
+       position: absolute;
+    }
+  
+    .icon img{
+       width:4rem;
+       height:4rem;
+       margin-top: 1rem;
+       margin-right: 2rem;
+    }
+    
+    .text{
+       display: none;
+       display: inline-block;
+       vertical-align: middle;
+       font-size: 30px;
+       color: gray;
+       text-decoration: none;
+       font-family: sans-serif;
+   }
+ 
+   .task span{
+       color: gray;
+       font-weight: 100;
+   }
+  
+   .text span{
+    display: none;
+   }
+ 
+   .add{
+      display: none;
+      width: 10%;
+      display: inline-block;
+      padding: 0rem;
+      margin-left:0%;
+      margin-right:0rem;
+   }
+  
+   .red-color {
+       display: none;
+       color:red;
+  }
+ 
+   .cards{
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto;
+       align-items: center;
+   }
+  
+   .card{
+      width: 90%;
+      border: 2px solid gray;
+      display: inline-block;
+      text-align: center;
+      border-radius: 1rem;
+      height: 5%;
+      color:gray;
+      box-shadow: 5px 5px 12px gray;
+      margin-left: 1rem;
+      font-size: 1rem;
+   }
+  
+   .mark{
+      margin-top: -3rem;
+     }
+
+   .card p{
+      font-size: 2rem;
+      color: gray;
+      font-family: Segoe UI;
+      margin-right:14rem;
+   }
+ 
+   .si p{
+      font-size: 2rem;
+      color: gray;
+      font-family: Segoe UI;
+      margin-right:0rem;
+   }
+  
+   .card a{
+       text-decoration: none;
+   }
+  
+   .card del{
+       display: none;
+       font-size: 25px;
+       margin-left: 20px;
+   }
+   
+   input[type="checkbox"]{
+       display: none;
+       width: 18px; 
+       height: 18px; 
+   }
+  
+   .ing{
+       display: none;
+       margin-right: 40px;
+   }
+  
+   .ptask{
+       display: none;
+       color:black;
+       font-size: 22px;
+   }
+  
+   .line{
+       display: none;
+       width: 70%;
+       text-align:right;
+       margin-right:0;
+       color: black;
+       background-color: black;
+       height: 0.5px;
+  }
+   
+ }
+
+@media (min-width:600px) and (max-width:900px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+   font-size: 100%;
+  }
+
+ .cont{
+     width: 100vw;
+     height: 100vh;
+     margin-top:0%;
+     margin-left:0%;
+     background-color: white;
+     overflow-x:hidden;
+     overflow-y:hidden;
+ }
+ 
+ .head{
+     width: 100%;
+     display: inline-block;
+     font-size: 30px;
+     display: grid;
+     grid-template-columns: auto auto;
+     position: relative;
+ }
+ 
+ .head a{
+      text-decoration: none;
+      color: gray;
+ }
+ 
+ .task{
+      width: 100%;
+      display:inline-block;
+      padding: 1%;
+      margin-right:0px;
+      font: size 5rem;;
+      margin-top:0%;
+      margin: left 0.1rem;;
+      font-family: 'Roboto Condensed', sans-serif;
+      position: absolute;
+
+ }
+
+   .task span{
+      font-family: Segoe UI;
+   }
+ 
+  .icon {
+      display: inline-block;
+      color: #ffC977;
+      vertical-align:middle;
+      margin: top 0rem;
+      right: 0;
+      position: absolute;
+   }
+ 
+   .icon img{
+      width:4rem;
+      height:4rem;
+      margin-top: 1rem;
+      margin-right: 4rem;
+   }
+   
+   .text{
+      display: none;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 30px;
+      color: gray;
+      text-decoration: none;
+      font-family: sans-serif;
+  }
+
+  .task span{
+      color: gray;
+      font-weight: 100;
+  }
+ 
+  .text span{
+   display: none;
+  }
+
+  .add{
+     display: none;
+     width: 10%;
+     display: inline-block;
+     padding: 0rem;
+     margin-left:0%;
+     margin-right:0rem;
+  }
+ 
+  .red-color {
+      display: none;
+      color:red;
+ }
+
+  .cards{
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+  }
+ 
+  .card{
+     width: 90%;
+     border: 2px solid gray;
+     display: inline-block;
+     text-align: center;
+     border-radius: 1rem;
+     height: 1%;
+     color:gray;
+     box-shadow: 5px 5px 12px gray;
+     margin-left: 1rem;
+     font-size: 1rem;
+  }
+ 
+  .card p{
+     font-size: 2rem;
+     color: gray;
+     font-family: Segoe UI;
+     margin-right:55%;
+  }
+
+  .si p{
+     font-size: 2rem;
+     color: gray;
+     font-family: Segoe UI;
+     margin-right:70%;
+  }
+
+  .card a{
+      text-decoration: none;
+  }
+
+  .mark{
+   margin-top: -5rem;
+  }
+ 
+  .card del{
+      display: none;
+      font-size: 25px;
+      margin-left: 20px;
+  }
+  
+  input[type="checkbox"]{
+      display: none;
+      width: 18px; 
+      height: 18px; 
+  }
+ 
+  .ing{
+      display: none;
+      margin-right: 40px;
+  }
+ 
+  .ptask{
+      display: none;
+      color:black;
+      font-size: 22px;
+  }
+ 
+  .line{
+      display: none;
+      width: 70%;
+      text-align:right;
+      margin-right:0;
+      color: black;
+      background-color: black;
+      height: 0.5px;
+ }
+  
+}
+
+@media (min-width:900px) and (max-width:1300px) {
+   
+   *{
+      margin: 0;
+      padding: 0;
+    }
+   
+    html{
+      font-size: 100%;
+      margin: 0%;
+      padding: 0%;
+      /* background-color: rgb(231, 231, 231); */
+   }
+
+   .cont{
+       width: 100%;
+       height: 100vh;
+       margin-top:0%;
+       margin-left:0%;
+       background-color: white;
+       padding: 0;
+       overflow-x:hidden;
+       overflow-y:hidden;
+   }
+   
+   .head{
+       width: 100%;
+       display: inline-block;
+       font-size: 30px;
+       display: grid;
+       grid-template-columns: auto auto;
+       position: relative;
+   }
+   
+   .head a{
+        text-decoration: none;
+        color: gray;
+   }
+   
+   .task{
+        width: 100%;
+        display:inline-block;
+        padding: 1%;
+        margin-right:0px;
+        font: size 5rem;;
+        margin-top:0%;
+        margin: left 0.1rem;;
+        font-family: 'Roboto Condensed', sans-serif;
+        position: absolute;
+  
+   }
+  
+     .task span{
+        font-family: Segoe UI;
+     }
+   
+    .icon {
+        display: inline-block;
+        color: #ffC977;
+        vertical-align:middle;
+        margin: top 0rem;
+        right: 0;
+        position: absolute;
+     }
+   
+     .icon img{
+        width:4rem;
+        height:4rem;
+        margin-top: 1.5rem;
+        margin-right: 8rem;
+     }
+     
+     .text{
+        display: none;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 30px;
+        color: gray;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+  
+    .task span{
+        color: gray;
+        font-weight: 100;
+    }
+   
+    .text span{
+     display: none;
+    }
+  
+    .add{
+       display: none;
+       width: 10%;
+       display: inline-block;
+       padding: 0rem;
+       margin-left:0%;
+       margin-right:0rem;
+    }
+   
+    .red-color {
+        display: none;
+        color:red;
+   }
+  
+    .cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+   
+    .card{
+       width: 80%;
+       border: 2px solid gray;
+       display: inline-block;
+       text-align: center;
+       border-radius: 1rem;
+       height: 1%;
+       color:gray;
+       box-shadow: 5px 5px 12px gray;
+       margin-left: 4rem;
+       font-size: 1rem;
+       padding: 2.5rem;
+    }
+   
+    .card p{
+       font-size: 1.7rem;
+       color: gray;
+       font-family: Segoe UI;
+       margin-right:75%;
+       margin-top: -1.5rem;
+    }
+  
+    .si p{
+       font-size: 2rem;
+       color: gray;
+       font-family: Segoe UI;
+       margin-right:70%;
+    }
+  
+    .card a{
+        text-decoration: none;
+    }
+  
+    .mark{
+     margin-top: -3rem;
+    }
+   
+    .card del{
+        display: none;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    input[type="checkbox"]{
+        display: none;
+        width: 18px; 
+        height: 18px; 
+    }
+   
+    .ing{
+        display: none;
+        margin-right: 40px;
+    }
+   
+    .ptask{
+        display: none;
+        color:black;
+        font-size: 22px;
+    }
+   
+    .line{
+        display: none;
+        width: 70%;
+        text-align:right;
+        margin-right:0;
+        color: black;
+        background-color: black;
+        height: 0.5px;
+   }
+   
+}
